@@ -9,7 +9,7 @@ int main()
 	int i = k + 1;//整數型變數宣告需用小寫i, 且k並未宣告
 	cout << i++ << endl;
 	i = 1;
-	cout << ++i << endl;//因為i重複定義，以j替換
+	cout << ++i << endl;
 	cout << "Welcome to C++" << endl;
 	return 0;
 }
